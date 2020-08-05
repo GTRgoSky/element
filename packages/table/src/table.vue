@@ -388,6 +388,7 @@
         }
       },
 
+      // tabel 滚动时。通过这里设置滚动高度达到两端固定
       handleFixedMousewheel(event, data) {
         const bodyWrapper = this.bodyWrapper;
         if (Math.abs(data.spinY) > 0) {
